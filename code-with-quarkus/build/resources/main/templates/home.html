@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code test Aplication</title>
+</head>
+<body>
+  <h2>{intro}</h2>
+  <br><br>
+  <h2>Please enter an number to compute has follows</h2>
+  <br><br>
+  <h3>
+    The Alticci 
+     
+    a(n) - sequence is defined as follows:
+    <br><br>
+    n=0 => a(0) = 0<br><br>
+    n=1 => a(1) = 1<br><br>
+    n=2 => a(2) = 1<br><br>
+    n>2 => a(n) = a(n-3) + a(n-2)<br><br>
+    <br><br>
+    Example of the first sequence values:
+    0
+    1
+    1
+    1
+    2
+    2
+    3
+    4
+    5
+    7
+    9
+    [...]
+  </h3>
+    <!-- can't make action = /alticci/n, qute detects n and throws error-->
+    <form action="/home" method="get">
+      <input type="number" name="n" />
+      <button type="submit">Calculate</button>
+    </form>
+    
+</body>
+</html>
